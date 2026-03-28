@@ -5,14 +5,14 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-  const text = `Got a question, how or project Idea?
-    WE’D love to hear from you and discus further!`;
+  const text = `Got a question, idea or project?
+    I'd love to hear from you and discuss further!`;
   const items = [
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
+    "You imagine it, I code it",
+    "You imagine it, I code it",
+    "You imagine it, I code it",
+    "You imagine it, I code it",
+    "You imagine it, I code it",
   ];
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -46,14 +46,14 @@ const Contact = () => {
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                JohnDoe@gmail.com
+                hello@saad.dev
               </p>
             </div>
             <div className="social-link">
-              <h2>Phone</h2>
+              <h2>Location</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl lowercase md:text-2xl lg:text-3xl">
-                +33 7 12 12 32 12
+                Croatia — available worldwide
               </p>
             </div>
             <div className="social-link">

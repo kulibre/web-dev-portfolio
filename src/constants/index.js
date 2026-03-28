@@ -1,78 +1,78 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Frontend Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I build fast, responsive, and pixel-perfect user interfaces that users love. From interactive React UIs to seamless animations, I bridge design and functionality with precision.",
+    items: [
+      {
+        title: "React & Next.js",
+        description: "(SPAs, SSR, Performance Optimization)",
+      },
+      {
+        title: "Interactive UI/UX",
+        description: "(Animations, 3D Web, Micro-interactions)",
+      },
+      {
+        title: "Responsive Design",
+        description: "(Mobile-first, Cross-browser, Pixel-perfect)",
+      },
+    ],
+  },
+  {
+    title: "Full Stack Development",
+    description:
+      "End-to-end web applications built with clean architecture, optimized databases, and seamless API integrations. Reliable at every layer, from database to UI.",
     items: [
       {
         title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
-      },
-      {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        description: "(REST/GraphQL APIs, Node.js, Auth Systems)",
       },
       {
         title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        description: "(SQL/NoSQL, Scalable Structures)",
+      },
+      {
+        title: "API Integration",
+        description: "(Third-party Services, Payment Gateways)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Mobile App Development",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Cross-platform mobile apps built with React Native that feel native on iOS and Android. Single codebase, maximum reach, with flawless performance.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "React Native",
+        description: "(iOS & Android from one codebase)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "App Performance",
+        description: "(Optimization, Testing, Code Quality)",
       },
+      {
+        title: "Backend Integration",
+        description: "(APIs, Push Notifications, Offline Support)",
+      },
+    ],
+  },
+  {
+    title: "Web & SEO Optimization",
+    description:
+      "Fast apps rank higher and convert better. I optimize performance bottlenecks, implement SEO best practices, and ensure Lighthouse scores that impress.",
+    items: [
       {
         title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
-    ],
-  },
-  {
-    title: "Security & Optimization",
-    description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
-    items: [
-      {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
-      },
-      {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        description: "(Caching, Compression, Lighthouse 90+)",
       },
       {
         title: "SEO Tech Stack",
         description: "(SSR, Metadata, Structured Data)",
       },
-    ],
-  },
-  {
-    title: "Web & Mobile Apps",
-    description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Code Quality",
+        description: "(Refactoring, Best Practices, Tech Debt)",
       },
     ],
   },
@@ -80,9 +80,9 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "KisanMarkaz Platform",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "A modern web platform for KisanMarkaz featuring high-performance user-facing features built in collaboration with UI/UX designers for seamless user experiences.",
     href: "",
     image: "/assets/projects/mobile-accessories-store.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
@@ -90,92 +90,86 @@ export const projects = [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
       { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 4, name: "Tailwind CSS" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "BIT Technologies Web App",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "Led development of scalable web applications for BIT Technologies, integrating APIs seamlessly between frontend and backend systems.",
     href: "",
     image: "/assets/projects/plant-shop.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "REST API" },
+      { id: 4, name: "MongoDB" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Tres Mind Mobile App",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "Cross-platform mobile application built with React Native for Tres Mind, delivering enhanced mobile experience integrated with backend services.",
     href: "",
     image: "/assets/projects/apple-tech-store.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React Native" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "REST API" },
+      { id: 4, name: "Redux" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "E-Commerce Store",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "A full-featured multi-category online shop with product filtering, cart system, and payment gateway integration.",
     href: "",
     image: "/assets/projects/electronics-store.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "React" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "Stripe API" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "SaaS Dashboard",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "A robust and scalable SaaS platform with analytics dashboard, user management, and subscription billing integration.",
     href: "",
     image: "/assets/projects/home-decor-store.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "Angular" },
+      { id: 1, name: "React" },
       { id: 2, name: "Firebase" },
       { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 4, name: "Tailwind CSS" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Interactive 3D Portfolio",
     description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+      "A visually stunning personal portfolio featuring interactive 3D models, smooth animations, and a modern design that showcases projects and skills.",
     href: "",
     image: "/assets/projects/game-store.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "React" },
+      { id: 2, name: "Three.js" },
+      { id: 3, name: "GSAP" },
+      { id: 4, name: "Vite" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/" },
+  { name: "GitHub", href: "https://github.com/kulibre" },
 ];
