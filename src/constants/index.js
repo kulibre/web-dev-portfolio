@@ -125,10 +125,10 @@ export const projects = [
   },
   {
     id: 4,
-    name: "E-Commerce Store",
+    name: "Slam Dunk Store",
     description:
-      "A full-featured multi-category online shop with product filtering, cart system, and payment gateway integration.",
-    href: "",
+      "A modern, high-performance e-commerce store focusing on shoes, built with Next.js and Tailwind CSS. Features engaging 3D interactions and smooth animations.",
+    href: "https://slamdunk-five.vercel.app/",
     image: "/assets/projects/electronics-store.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
@@ -140,10 +140,10 @@ export const projects = [
   },
   {
     id: 5,
-    name: "SaaS Dashboard",
+    name: "Nova",
     description:
-      "A robust and scalable SaaS platform with analytics dashboard, user management, and subscription billing integration.",
-    href: "",
+      "A sleek and responsive Nova SaaS portal designed with modern aesthetics. It provides real-time data visualization and streamlined user management.",
+    href: "https://nova-three-hazel.vercel.app/",
     image: "/assets/projects/home-decor-store.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
@@ -155,10 +155,10 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Interactive 3D Portfolio",
+    name: "Mojito",
     description:
-      "A visually stunning personal portfolio featuring interactive 3D models, smooth animations, and a modern design that showcases projects and skills.",
-    href: "",
+      "An immersive personal portfolio featuring creative 3D elements, dynamic scroll effects, and beautiful interactions using Three.js and GSAP.",
+    href: "https://velvetpour-ten.vercel.app/",
     image: "/assets/projects/game-store.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
